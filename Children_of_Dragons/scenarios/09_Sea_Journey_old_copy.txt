@@ -1,4 +1,5 @@
 #textdomain wesnoth-Children_of_Dragons
+# this is a backup of the old version of this scenario.
 
 [scenario]
     id="Sea_Journey"
@@ -67,7 +68,7 @@
         shroud=no
         team_name=good
         user_team_name= _ "Kahn"
-        {GOLD 200 175 150} #{GOLD 150 125 100}
+        {GOLD 150 125 100}
         {FLAG_VARIANT loyalist} # they're being hosted on a human ship...
     [/side]
     {STARTING_VILLAGES 1 5}
@@ -83,79 +84,21 @@
         team_name=bad
         user_team_name= _ "Nagas"
     [/side]
-    
-    [side]
-        side=3
-        controller=ai
-        no_leader=yes
-        [ai]
-            grouping=no
-            aggression=1.0
-            caution=0.0
-        [/ai]
-        #added team_name. Elvish_Hunter
-        team_name=bad
-        user_team_name= _ "Creepers"
-    [/side]
 
     [event]
         name=start
         [recall]
             id=Freon
         [/recall]
-		
-		# wmllint: recognize Ober
-		# wmllint: recognize Sekol
-		
-        {NAMED_LOYAL_UNIT 1 (Lieutenant) 26 29 (Ober) ( _ "Ober")} # was a Sergeant
+        {NAMED_LOYAL_UNIT 1 (Sergeant) 26 29 (Ober) ( _ "Ober")}
         {MAKE_HERO Ober}
-        # they were all Spearmen
-        {NAMED_LOYAL_UNIT 1 (Swordsman) 20 14 (Gwellyn) ( _ "Gwellyn")}
-        {NAMED_LOYAL_UNIT 1 (Longbowman) 20 26 (Rhygwyn) ( _ "Rhygwyn")}
-        {NAMED_LOYAL_UNIT 1 (Javelineer) 32 14 (Yrannyn) ( _ "Yrannyn")}
-        {NAMED_LOYAL_UNIT 1 (Pikeman) 32 26 (Carac) ( _ "Carac")}
-        {NAMED_LOYAL_UNIT 1 (Bowman) 24 28 (Aethenvan) ( _ "Aethenvan")}
+        {NAMED_LOYAL_UNIT 1 (Spearman) 20 14 (Gwellyn) ( _ "Gwellyn")}
+        {NAMED_LOYAL_UNIT 1 (Spearman) 20 26 (Rhygwyn) ( _ "Rhygwyn")}
+        {NAMED_LOYAL_UNIT 1 (Spearman) 32 14 (Yrannyn) ( _ "Yrannyn")}
+        {NAMED_LOYAL_UNIT 1 (Spearman) 32 26 (Carac) ( _ "Carac")}
+        {NAMED_LOYAL_UNIT 1 (Spearman) 24 28 (Aethenvan) ( _ "Aethenvan")}
         {NAMED_LOYAL_UNIT 1 (Spearman) 28 28 (Deodd) ( _ "Deodd")}
         {NAMED_LOYAL_UNIT 1 (Spearman) 26 11 (Caedry) ( _ "Caedry")}
-        # creepers!
-        {GENERIC_UNIT 3 (Giant Rat) 26 16}
-        {GENERIC_UNIT 3 (Giant Rat) 25 17}
-        {GENERIC_UNIT 3 (Giant Rat) 27 17}
-        {GENERIC_UNIT 3 (Giant Rat) 26 17}
-        # second room!
-        {GENERIC_UNIT 3 (Giant Worm) 25 24}
-        {GENERIC_UNIT 3 (Giant Worm) 26 23}
-        {GENERIC_UNIT 3 (Giant Worm) 27 24}
-        {GENERIC_UNIT 3 (Giant Worm) 25 25}
-        {GENERIC_UNIT 3 (Giant Worm) 26 24}
-        {GENERIC_UNIT 3 (Giant Worm) 27 25}
-        {GENERIC_UNIT 3 (Cerberus Worm) 26 25}
-        # keep 'em safe
-        [item]
-            x,y=26,18
-            image=scenery/gate-rusty-se.png
-        [/item]
-        [item]
-            x,y=25,23
-            image=scenery/gate-rusty-se.png
-        [/item]
-        [item]
-            x,y=27,23
-            image=scenery/gate-rusty-sw.png
-        [/item]
-        [set_variable]
-            name=door1_open
-            value=no
-        [/set_variable]
-        [set_variable]
-            name=door2_open
-            value=no
-        [/set_variable]
-        [set_variable]
-            name=door3_open
-            value=no
-        [/set_variable]
-        
         [message]
             id=Ober
             message= _ "We have little information about this area as we generally avoid Morogor, however the reports I have heard say there are often many Nagas around here. They do move around a lot though, so let's hope they are currently elsewhere."
@@ -331,7 +274,7 @@
     [/set_variable]
     [unit]
         side=2
-        type=Naga Hunter #Naga Fighter
+        type=Naga Fighter
         x,y=$unit_x,$unit_y
     [/unit]
 #ifndef EASY
@@ -360,7 +303,7 @@
     [/set_variable]
     [unit]
         side=2
-        type=Naga Assassin #Naga Myrmidon
+        type=Naga Myrmidon
         x,y=$unit_x,$unit_y
     [/unit]
 #endif
@@ -752,166 +695,6 @@
                 [/then]
             [/if]
         {NEXT village_i}
-    [/event]
-    
-    [event]
-        name=moveto
-        [filter]
-            side=1
-            [filter_location]
-                x=25,26,27,24,25,27,28
-                y=19,19,19,22,22,22,22
-            [/filter_location]
-        [/filter]
-        [message]
-            speaker=Kahn
-            message= _ "Why these rooms are sealed? We could use the supplies that are inside them."
-        [/message]
-        [message]
-            speaker=Ober
-            message= _ "Well, these were our storage rooms. Something must have been rotten some time ago, and from that moment both were invaded by rats and worms. We tried our best to disinfestate them, but to no avail. Of course, if you can clean them, you can use whatever you find inside them."
-        [/message]
-    [/event]
-    [event]
-        name=moveto
-        first_time_only=no
-        [filter]
-            side=1
-            [filter_location]
-                 x=25,26,27
-                 y=19,19,19
-            [/filter_location]
-        [/filter]
-        [filter_condition]
-            [variable]
-                name=door1_open
-                equals=no
-            [/variable]
-        [/filter_condition]
-        [message]
-            speaker=unit
-            message= _ "Should I open that door?"
-            [option]
-                message= _ "Yes"
-                [command]
-                    [remove_item]
-                        x,y=26,18
-                    [/remove_item]
-                    [terrain]
-                        x,y=26,18
-                        terrain=Iwr
-                    [/terrain]
-                    [message]
-                        speaker=unit
-                        message= _ "Let's kill those creepers!"
-                    [/message]
-                    [set_variable]
-                        name=door1_open
-                        value=yes
-                    [/set_variable]
-                [/command]
-            [/option]   
-            [option]
-                message= _ "No"
-                [command]
-                    [allow_undo][/allow_undo]
-                [/command]
-            [/option]   
-        [/message]
-    [/event]
-        [event]
-        name=moveto
-        first_time_only=no
-        [filter]
-            side=1
-            [filter_location]
-                x=24,25
-                y=22,22
-            [/filter_location]
-        [/filter]
-        [filter_condition]
-            [variable]
-                name=door2_open
-                equals=no
-            [/variable]
-        [/filter_condition]
-        [message]
-            speaker=unit
-            message= _ "Should I open that door?"
-            [option]
-                message= _ "Yes"
-                [command]
-                    [remove_item]
-                        x,y=25,23
-                    [/remove_item]
-                    [terrain]
-                        x,y=25,23
-                        terrain=Iwr
-                    [/terrain]
-                    [message]
-                        speaker=unit
-                        message= _ "Let's kill those creepers!"
-                    [/message]
-                    [set_variable]
-                        name=door2_open
-                        value=yes
-                    [/set_variable]
-                [/command]
-            [/option]   
-            [option]
-                message= _ "No"
-                [command]
-                    [allow_undo][/allow_undo]
-                [/command]
-            [/option]   
-        [/message]
-    [/event]
-        [event]
-        name=moveto
-        first_time_only=no
-        [filter]
-            side=1
-            [filter_location]
-                x=27,28
-                y=22,22
-            [/filter_location]
-        [/filter]
-        [filter_condition]
-            [variable]
-                name=door3_open
-                equals=no
-            [/variable]
-        [/filter_condition]
-        [message]
-            speaker=unit
-            message= _ "Should I open that door?"
-            [option]
-                message= _ "Yes"
-                [command]
-                    [remove_item]
-                        x,y=27,23
-                    [/remove_item]
-                    [terrain]
-                        x,y=27,23
-                        terrain=Iwr
-                    [/terrain]
-                    [message]
-                        speaker=unit
-                        message= _ "Let's kill those creepers!"
-                    [/message]
-                    [set_variable]
-                        name=door3_open
-                        value=yes
-                    [/set_variable]
-                [/command]
-            [/option]   
-            [option]
-                message= _ "No"
-                [command]
-                    [allow_undo][/allow_undo]
-                [/command]
-            [/option]   
-        [/message]
     [/event]
 
     [event]
