@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: branch 1.10\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2012-02-26 17:18+0100\n"
+"POT-Creation-Date: 2012-05-11 18:42-0400\n"
 "PO-Revision-Date: 2012-02-22 00:17+0100\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -118,76 +118,76 @@ msgid ""
 msgstr ""
 
 #. [objective]: condition=win
-#: Children_of_Dragons/scenarios/07_Bandits.cfg:32
 #: Children_of_Dragons/scenarios/01_Leader_of_the_Drakes.cfg:32
+#: Children_of_Dragons/scenarios/07_Bandits.cfg:32
 msgid "Defeat all enemy leaders"
 msgstr ""
 
 #. [objective]: condition=lose
-#: Children_of_Dragons/scenarios/12_Showdown.cfg:38
-#: Children_of_Dragons/scenarios/12_Showdown.cfg:181
-#: Children_of_Dragons/scenarios/12_Showdown.cfg:471
-#: Children_of_Dragons/scenarios/04_Leaving_the_Mountains.cfg:57
-#: Children_of_Dragons/scenarios/03_The_Emerging.cfg:36
-#: Children_of_Dragons/scenarios/07_Bandits.cfg:36
 #: Children_of_Dragons/scenarios/01_Leader_of_the_Drakes.cfg:36
-#: Children_of_Dragons/scenarios/11_Clearing_the_Island.cfg:37
-#: Children_of_Dragons/scenarios/11_Clearing_the_Island.cfg:138
-#: Children_of_Dragons/scenarios/11_Clearing_the_Island.cfg:182
+#: Children_of_Dragons/scenarios/03_The_Emerging.cfg:36
+#: Children_of_Dragons/scenarios/04_Leaving_the_Mountains.cfg:57
 #: Children_of_Dragons/scenarios/05_Dark_Forest.cfg:37
 #: Children_of_Dragons/scenarios/05_Dark_Forest.cfg:240
+#: Children_of_Dragons/scenarios/07_Bandits.cfg:36
+#: Children_of_Dragons/scenarios/08_To_the_Ships.cfg:42
 #: Children_of_Dragons/scenarios/09_Sea_Journey.cfg:40
 #: Children_of_Dragons/scenarios/09_Sea_Journey.cfg:705
 #: Children_of_Dragons/scenarios/10_Landing_on_Morogor.cfg:37
-#: Children_of_Dragons/scenarios/08_To_the_Ships.cfg:42
+#: Children_of_Dragons/scenarios/11_Clearing_the_Island.cfg:37
+#: Children_of_Dragons/scenarios/11_Clearing_the_Island.cfg:138
+#: Children_of_Dragons/scenarios/11_Clearing_the_Island.cfg:182
+#: Children_of_Dragons/scenarios/12_Showdown.cfg:38
+#: Children_of_Dragons/scenarios/12_Showdown.cfg:181
+#: Children_of_Dragons/scenarios/12_Showdown.cfg:471
 msgid "Death of Kahn"
 msgstr ""
 
 #. [objective]: condition=lose
-#: Children_of_Dragons/scenarios/12_Showdown.cfg:46
-#: Children_of_Dragons/scenarios/12_Showdown.cfg:189
-#: Children_of_Dragons/scenarios/12_Showdown.cfg:479
-#: Children_of_Dragons/scenarios/04_Leaving_the_Mountains.cfg:65
-#: Children_of_Dragons/scenarios/03_The_Emerging.cfg:44
-#: Children_of_Dragons/scenarios/07_Bandits.cfg:48
 #: Children_of_Dragons/scenarios/01_Leader_of_the_Drakes.cfg:40
+#: Children_of_Dragons/scenarios/03_The_Emerging.cfg:44
+#: Children_of_Dragons/scenarios/04_Leaving_the_Mountains.cfg:65
+#: Children_of_Dragons/scenarios/05_Dark_Forest.cfg:45
+#: Children_of_Dragons/scenarios/05_Dark_Forest.cfg:248
+#: Children_of_Dragons/scenarios/07_Bandits.cfg:48
+#: Children_of_Dragons/scenarios/08_To_the_Ships.cfg:46
+#: Children_of_Dragons/scenarios/10_Landing_on_Morogor.cfg:45
 #: Children_of_Dragons/scenarios/11_Clearing_the_Island.cfg:45
 #: Children_of_Dragons/scenarios/11_Clearing_the_Island.cfg:146
 #: Children_of_Dragons/scenarios/11_Clearing_the_Island.cfg:190
-#: Children_of_Dragons/scenarios/05_Dark_Forest.cfg:45
-#: Children_of_Dragons/scenarios/05_Dark_Forest.cfg:248
-#: Children_of_Dragons/scenarios/10_Landing_on_Morogor.cfg:45
-#: Children_of_Dragons/scenarios/08_To_the_Ships.cfg:46
+#: Children_of_Dragons/scenarios/12_Showdown.cfg:46
+#: Children_of_Dragons/scenarios/12_Showdown.cfg:189
+#: Children_of_Dragons/scenarios/12_Showdown.cfg:479
 msgid "Turns run out"
 msgstr ""
 
 #. [side]: type=Drake Noble, id=Kahn
-#: Children_of_Dragons/scenarios/12_Showdown.cfg:76
-#: Children_of_Dragons/scenarios/12_Showdown.cfg:85
-#: Children_of_Dragons/scenarios/02_Drake_Council.cfg:22
-#: Children_of_Dragons/scenarios/02_Drake_Council.cfg:30
-#: Children_of_Dragons/scenarios/04_Leaving_the_Mountains.cfg:78
-#: Children_of_Dragons/scenarios/04_Leaving_the_Mountains.cfg:86
-#: Children_of_Dragons/scenarios/13_Epilogue.cfg:38
-#: Children_of_Dragons/scenarios/13_Epilogue.cfg:46
-#: Children_of_Dragons/scenarios/03_The_Emerging.cfg:57
-#: Children_of_Dragons/scenarios/03_The_Emerging.cfg:65
-#: Children_of_Dragons/scenarios/07_Bandits.cfg:64
-#: Children_of_Dragons/scenarios/07_Bandits.cfg:72
 #: Children_of_Dragons/scenarios/01_Leader_of_the_Drakes.cfg:56
 #: Children_of_Dragons/scenarios/01_Leader_of_the_Drakes.cfg:65
-#: Children_of_Dragons/scenarios/11_Clearing_the_Island.cfg:58
-#: Children_of_Dragons/scenarios/11_Clearing_the_Island.cfg:66
+#: Children_of_Dragons/scenarios/02_Drake_Council.cfg:22
+#: Children_of_Dragons/scenarios/02_Drake_Council.cfg:30
+#: Children_of_Dragons/scenarios/03_The_Emerging.cfg:57
+#: Children_of_Dragons/scenarios/03_The_Emerging.cfg:65
+#: Children_of_Dragons/scenarios/04_Leaving_the_Mountains.cfg:78
+#: Children_of_Dragons/scenarios/04_Leaving_the_Mountains.cfg:86
 #: Children_of_Dragons/scenarios/05_Dark_Forest.cfg:62
 #: Children_of_Dragons/scenarios/05_Dark_Forest.cfg:70
-#: Children_of_Dragons/scenarios/09_Sea_Journey.cfg:61
-#: Children_of_Dragons/scenarios/09_Sea_Journey.cfg:69
 #: Children_of_Dragons/scenarios/06_The_Humans.cfg:24
 #: Children_of_Dragons/scenarios/06_The_Humans.cfg:32
-#: Children_of_Dragons/scenarios/10_Landing_on_Morogor.cfg:58
-#: Children_of_Dragons/scenarios/10_Landing_on_Morogor.cfg:66
+#: Children_of_Dragons/scenarios/07_Bandits.cfg:64
+#: Children_of_Dragons/scenarios/07_Bandits.cfg:72
 #: Children_of_Dragons/scenarios/08_To_the_Ships.cfg:63
 #: Children_of_Dragons/scenarios/08_To_the_Ships.cfg:71
+#: Children_of_Dragons/scenarios/09_Sea_Journey.cfg:61
+#: Children_of_Dragons/scenarios/09_Sea_Journey.cfg:69
+#: Children_of_Dragons/scenarios/10_Landing_on_Morogor.cfg:58
+#: Children_of_Dragons/scenarios/10_Landing_on_Morogor.cfg:66
+#: Children_of_Dragons/scenarios/11_Clearing_the_Island.cfg:58
+#: Children_of_Dragons/scenarios/11_Clearing_the_Island.cfg:66
+#: Children_of_Dragons/scenarios/12_Showdown.cfg:76
+#: Children_of_Dragons/scenarios/12_Showdown.cfg:85
+#: Children_of_Dragons/scenarios/13_Epilogue.cfg:38
+#: Children_of_Dragons/scenarios/13_Epilogue.cfg:46
 msgid "Kahn"
 msgstr ""
 
@@ -204,10 +204,10 @@ msgid "Garaag"
 msgstr ""
 
 #. [unit]: type=Drake Warden, id=Harkon
-#: Children_of_Dragons/scenarios/02_Drake_Council.cfg:45
 #: Children_of_Dragons/scenarios/01_Leader_of_the_Drakes.cfg:104
 #: Children_of_Dragons/scenarios/01_Leader_of_the_Drakes.cfg:174
 #: Children_of_Dragons/scenarios/01_Leader_of_the_Drakes.cfg:198
+#: Children_of_Dragons/scenarios/02_Drake_Council.cfg:45
 msgid "Harkon"
 msgstr ""
 
@@ -316,8 +316,8 @@ msgid ""
 "to convince his people of his somewhat radical plans."
 msgstr ""
 
-#. [unit]: type=Inferno Drake, id=Gakk
 #. [side]: type=Inferno Drake, id=Gakk
+#. [unit]: type=Inferno Drake, id=Gakk
 #: Children_of_Dragons/scenarios/02_Drake_Council.cfg:61
 #: Children_of_Dragons/scenarios/08_To_the_Ships.cfg:79
 #: Children_of_Dragons/scenarios/08_To_the_Ships.cfg:86
@@ -334,8 +334,8 @@ msgstr ""
 msgid "Freon"
 msgstr ""
 
-#. [unit]: type=Drake Enforcer, id=Stakron
 #. [side]: type=Drake Enforcer, id=Stakron
+#. [unit]: type=Drake Enforcer, id=Stakron
 #: Children_of_Dragons/scenarios/02_Drake_Council.cfg:123
 #: Children_of_Dragons/scenarios/08_To_the_Ships.cfg:94
 #: Children_of_Dragons/scenarios/08_To_the_Ships.cfg:101
@@ -585,20 +585,20 @@ msgid "Kahn must reach the exit"
 msgstr ""
 
 #. [objective]: condition=lose
-#: Children_of_Dragons/scenarios/12_Showdown.cfg:42
-#: Children_of_Dragons/scenarios/12_Showdown.cfg:185
-#: Children_of_Dragons/scenarios/12_Showdown.cfg:475
-#: Children_of_Dragons/scenarios/04_Leaving_the_Mountains.cfg:61
 #: Children_of_Dragons/scenarios/03_The_Emerging.cfg:40
-#: Children_of_Dragons/scenarios/07_Bandits.cfg:40
-#: Children_of_Dragons/scenarios/11_Clearing_the_Island.cfg:41
-#: Children_of_Dragons/scenarios/11_Clearing_the_Island.cfg:142
-#: Children_of_Dragons/scenarios/11_Clearing_the_Island.cfg:186
+#: Children_of_Dragons/scenarios/04_Leaving_the_Mountains.cfg:61
 #: Children_of_Dragons/scenarios/05_Dark_Forest.cfg:41
 #: Children_of_Dragons/scenarios/05_Dark_Forest.cfg:244
+#: Children_of_Dragons/scenarios/07_Bandits.cfg:40
 #: Children_of_Dragons/scenarios/09_Sea_Journey.cfg:44
 #: Children_of_Dragons/scenarios/09_Sea_Journey.cfg:709
 #: Children_of_Dragons/scenarios/10_Landing_on_Morogor.cfg:41
+#: Children_of_Dragons/scenarios/11_Clearing_the_Island.cfg:41
+#: Children_of_Dragons/scenarios/11_Clearing_the_Island.cfg:142
+#: Children_of_Dragons/scenarios/11_Clearing_the_Island.cfg:186
+#: Children_of_Dragons/scenarios/12_Showdown.cfg:42
+#: Children_of_Dragons/scenarios/12_Showdown.cfg:185
+#: Children_of_Dragons/scenarios/12_Showdown.cfg:475
 msgid "Death of Freon"
 msgstr ""
 
@@ -1599,8 +1599,8 @@ msgid ""
 msgstr ""
 
 #. [objective]: condition=win
-#: Children_of_Dragons/scenarios/11_Clearing_the_Island.cfg:134
 #: Children_of_Dragons/scenarios/10_Landing_on_Morogor.cfg:33
+#: Children_of_Dragons/scenarios/11_Clearing_the_Island.cfg:134
 msgid "Defeat the undead"
 msgstr ""
 
@@ -1609,10 +1609,10 @@ msgstr ""
 msgid "Undead Guardian"
 msgstr ""
 
-#. [side]: type=Skeleton
 #. [side]: type=Draug, type=Revenant, id=undead guardian
-#: Children_of_Dragons/scenarios/13_Epilogue.cfg:56
+#. [side]: type=Skeleton
 #: Children_of_Dragons/scenarios/10_Landing_on_Morogor.cfg:88
+#: Children_of_Dragons/scenarios/13_Epilogue.cfg:56
 msgid "Undead"
 msgstr ""
 
@@ -2033,19 +2033,19 @@ msgid "fire sword"
 msgstr ""
 
 #. [attack]: type=blade
-#: Children_of_Dragons/units/Naga_Hunter.cfg:43
 #: Children_of_Dragons/units/Drake_Chancellor.cfg:94
 #: Children_of_Dragons/units/Drake_Lord.cfg:85
 #: Children_of_Dragons/units/Naga_Assassin.cfg:40
+#: Children_of_Dragons/units/Naga_Hunter.cfg:43
 msgid "sword"
 msgstr ""
 
 #. [attack]: type=fire
-#: Children_of_Dragons/units/High_Magus.cfg:51
-#: Children_of_Dragons/units/Drake_Noble.cfg:94
 #: Children_of_Dragons/units/Drake_Chancellor.cfg:104
-#: Children_of_Dragons/units/Magus.cfg:50
 #: Children_of_Dragons/units/Drake_Lord.cfg:95
+#: Children_of_Dragons/units/Drake_Noble.cfg:94
+#: Children_of_Dragons/units/High_Magus.cfg:51
+#: Children_of_Dragons/units/Magus.cfg:50
 msgid "fire breath"
 msgstr ""
 
@@ -2138,8 +2138,8 @@ msgid ""
 msgstr ""
 
 #. [attack]: type=pierce
-#: Children_of_Dragons/units/Naga_Hunter.cfg:52
 #: Children_of_Dragons/units/Naga_Assassin.cfg:49
+#: Children_of_Dragons/units/Naga_Hunter.cfg:52
 msgid "bow"
 msgstr ""
 
@@ -2162,18 +2162,18 @@ msgstr ""
 msgid "Cerberus Worm"
 msgstr ""
 
-#. [unit_type]: id=Giant Worm, race=monster
 #. [unit_type]: id=Cerberus Worm #Behemoth Worm, race=monster
-#: Children_of_Dragons/units/Worm_Giant.cfg:17
+#. [unit_type]: id=Giant Worm, race=monster
 #: Children_of_Dragons/units/Worm_Cerberus.cfg:18
+#: Children_of_Dragons/units/Worm_Giant.cfg:17
 msgid ""
 "Usually, earthworms are pretty much inoffensive. But when they're really "
 "overgrown, they become a threat that is best avoided if possible."
 msgstr ""
 
 #. [attack]: type=blade
-#: Children_of_Dragons/units/Worm_Giant.cfg:22
 #: Children_of_Dragons/units/Worm_Cerberus.cfg:23
+#: Children_of_Dragons/units/Worm_Giant.cfg:22
 msgid "bite"
 msgstr ""
 
