@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: wescamp-i 18n\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2012-05-11 18:42-0400\n"
-"PO-Revision-Date: 2012-01-18 11:35+0100\n"
+"PO-Revision-Date: 2012-03-31 14:49+0100\n"
 "Last-Translator: Guigou Guillaume <guillaume.guigou@orange.fr>\n"
 "Language-Team: none\n"
 "Language: fr\n"
@@ -1654,8 +1654,9 @@ msgstr "Nagas"
 
 #. [side]
 #: Children_of_Dragons/scenarios/09_Sea_Journey.cfg:98
+#, fuzzy
 msgid "Creepers"
-msgstr ""
+msgstr "Creepers"
 
 #. [event]
 #: Children_of_Dragons/scenarios/09_Sea_Journey.cfg:110
@@ -1784,46 +1785,57 @@ msgstr "Vaincre les derniers nagas."
 
 #. [message]: speaker=Kahn
 #: Children_of_Dragons/scenarios/09_Sea_Journey.cfg:768
+#, fuzzy
 msgid ""
 "Why these rooms are sealed? We could use the supplies that are inside them."
 msgstr ""
+"Pourquoi ces chambres sont scellées ? Nous pourrions utiliser les "
+"fournitures qui sont à l'intérieur."
 
 #. [message]: speaker=Ober
 #: Children_of_Dragons/scenarios/09_Sea_Journey.cfg:772
+#, fuzzy
 msgid ""
 "Well, these were our storage rooms. Something must have been rotten some "
 "time ago, and from that moment both were invaded by rats and worms. We tried "
 "our best to disinfestate them, but to no avail. Of course, if you can clean "
 "them, you can use whatever you find inside them."
 msgstr ""
+"Eh bien, ce sont nos chambres de stockage. Quelque chose a pourri il y a "
+"quelque temps, et dès ce moment nous avons été envahies par les rats et les "
+"vers. Nous avons fait de notre mieux pour les désinfecter, mais en vain. "
+"Bien sûr, si vous pouvez les nettoyer, vous pourrez utiliser ce que vous "
+"trouverez à l'intérieur."
 
 #. [message]: speaker=unit
 #: Children_of_Dragons/scenarios/09_Sea_Journey.cfg:793
 #: Children_of_Dragons/scenarios/09_Sea_Journey.cfg:840
 #: Children_of_Dragons/scenarios/09_Sea_Journey.cfg:887
+#, fuzzy
 msgid "Should I open that door?"
-msgstr ""
+msgstr "Dois-je ouvrir cette porte ?"
 
 #. [option]: speaker=unit
 #: Children_of_Dragons/scenarios/09_Sea_Journey.cfg:795
 #: Children_of_Dragons/scenarios/09_Sea_Journey.cfg:842
 #: Children_of_Dragons/scenarios/09_Sea_Journey.cfg:889
 msgid "Yes"
-msgstr ""
+msgstr "Oui"
 
 #. [message]: speaker=unit
 #: Children_of_Dragons/scenarios/09_Sea_Journey.cfg:806
 #: Children_of_Dragons/scenarios/09_Sea_Journey.cfg:853
 #: Children_of_Dragons/scenarios/09_Sea_Journey.cfg:900
+#, fuzzy
 msgid "Let's kill those creepers!"
-msgstr ""
+msgstr "Tuons ces creepers !"
 
 #. [option]: speaker=unit
 #: Children_of_Dragons/scenarios/09_Sea_Journey.cfg:815
 #: Children_of_Dragons/scenarios/09_Sea_Journey.cfg:862
 #: Children_of_Dragons/scenarios/09_Sea_Journey.cfg:909
 msgid "No"
-msgstr ""
+msgstr "Non"
 
 #. [message]: id=Sekol
 #: Children_of_Dragons/scenarios/09_Sea_Journey.cfg:955
@@ -2364,13 +2376,15 @@ msgstr ""
 
 #. [terrain_type]: id=barrel_village
 #: Children_of_Dragons/terrain/terrain.cfg:5
+#, fuzzy
 msgid "Barrel"
-msgstr ""
+msgstr "Baril"
 
 #. [terrain_type]: id=box_village
 #: Children_of_Dragons/terrain/terrain.cfg:17
+#, fuzzy
 msgid "Box"
-msgstr ""
+msgstr "Caisse"
 
 #. [unit_type]: id=Drake Chancellor, race=drake
 #: Children_of_Dragons/units/Drake_Chancellor.cfg:4
@@ -2526,55 +2540,74 @@ msgstr "Assassin"
 
 #. [unit_type]: id=Naga Assassin, race=naga
 #: Children_of_Dragons/units/Naga_Assassin.cfg:30
+#, fuzzy
 msgid ""
 "Naga Assassins are Nagas who have specialised in the art of poison. Their "
 "bolts dipped in poison of baneful hue rarely does not inflict a mortal wound."
 msgstr ""
+"Les assassins Naga sont des nagas qui se sont spécialisés dans l'art du "
+"poison. Leurs boulons trempés dans du poison leur donnent une teinte "
+"funeste, mais infligent rarement une blessure mortelle."
 
 #. [attack]: type=pierce
 #: Children_of_Dragons/units/Naga_Assassin.cfg:49
 #: Children_of_Dragons/units/Naga_Hunter.cfg:52
+#, fuzzy
 msgid "bow"
-msgstr ""
+msgstr "arc"
 
 #. [unit_type]: id=Naga Hunter, race=naga
 #: Children_of_Dragons/units/Naga_Hunter.cfg:4
+#, fuzzy
 msgid "Naga Hunter"
-msgstr ""
+msgstr "Chasseur Naga"
 
 #. [unit_type]: id=Naga Hunter, race=naga
 #: Children_of_Dragons/units/Naga_Hunter.cfg:20
+#, fuzzy
 msgid ""
 "Naga Hunters are Naga who are skilled at hunting with a bow. Since the naga "
 "are naturally resistant to poison, they have no qualms about hunting with "
 "poisoned arrows. These two foot long shafts, tipped with a potent poison, "
 "have been known to slay many kinds of prey."
 msgstr ""
+"Les chasseurs Nagas sont les Nagas qui sont les plus habiles à la chasse "
+"avec un arc. Étant donné que les nagas sont naturellement résistants au "
+"poison, ils n'ont aucun scrupule d'utiliser à la chasse des flèches "
+"empoisonnées. Leurs harpons à deux branches sont imprégnés d'un poison "
+"violent, ils sont connus pour tuer de nombreux types de proies."
 
 #. [unit_type]: id=Cerberus Worm #Behemoth Worm, race=monster
 #: Children_of_Dragons/units/Worm_Cerberus.cfg:4
+#, fuzzy
 msgid "Cerberus Worm"
-msgstr ""
+msgstr "Ver Cerbère"
 
 #. [unit_type]: id=Cerberus Worm #Behemoth Worm, race=monster
 #. [unit_type]: id=Giant Worm, race=monster
 #: Children_of_Dragons/units/Worm_Cerberus.cfg:18
 #: Children_of_Dragons/units/Worm_Giant.cfg:17
+#, fuzzy
 msgid ""
 "Usually, earthworms are pretty much inoffensive. But when they're really "
 "overgrown, they become a threat that is best avoided if possible."
 msgstr ""
+"Habituellement, les vers de terre sont à peu près inoffensifs. Mais quand "
+"ils sont vraiment dérangés, ils deviennent une menace qu'il est préférable "
+"d'éviter si possible."
 
 #. [attack]: type=blade
 #: Children_of_Dragons/units/Worm_Cerberus.cfg:23
 #: Children_of_Dragons/units/Worm_Giant.cfg:22
+#, fuzzy
 msgid "bite"
-msgstr ""
+msgstr "morsure"
 
 #. [unit_type]: id=Giant Worm, race=monster
 #: Children_of_Dragons/units/Worm_Giant.cfg:4
+#, fuzzy
 msgid "Giant Worm"
-msgstr ""
+msgstr "Ver Géant"
 
 #. [message]: id=Kahn
 #: Children_of_Dragons/utils/deaths.cfg:9
